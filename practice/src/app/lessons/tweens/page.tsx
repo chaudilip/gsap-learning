@@ -6,6 +6,10 @@ export default function Tweees() {
     lesson2: "/lessons/tweens/lesson2",
     lesson3: "/lessons/tweens/lesson3",
     lesson4: "/lessons/tweens/lesson4",
+    lesson5: "/lessons/tweens/lesson5",
+    lesson6: "/lessons/tweens/lesson6",
+    lesson7: "/lessons/tweens/lesson7",
+    lesson8: "/lessons/tweens/lesson8",
   };
   return (
     <div className="flex h-screen w-full items-center justify-center">
