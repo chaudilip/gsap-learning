@@ -7,7 +7,13 @@ export default function Home() {
         href="/lessons/tweens"
         className="p-2 bg-zinc-100 text-blue-800 rounded-md"
       >
-        Lesson 1
+        Tweens
+      </Link>
+      <Link
+        href="/lessons/ease"
+        className="p-2 bg-zinc-100 text-blue-800 rounded-md"
+      >
+        Ease
       </Link>
     </div>
   );

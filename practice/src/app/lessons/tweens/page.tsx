@@ -10,10 +10,16 @@ export default function Tweees() {
     lesson6: "/lessons/tweens/lesson6",
     lesson7: "/lessons/tweens/lesson7",
     lesson8: "/lessons/tweens/lesson8",
+    lesson9: "/lessons/tweens/lesson9",
+    lesson10: "/lessons/tweens/lesson10",
+    lesson11: "/lessons/tweens/lesson11",
+    lesson12: "/lessons/tweens/lesson12",
+    lesson13: "/lessons/tweens/lesson13",
+    lesson14: "/lessons/tweens/lesson14",
   };
   return (
-    <div className="flex h-screen w-full items-center justify-center">
-      <div className="flex items-center justify-center gap-4">
+    <div className="flex h-screen w-full items-center justify-center flex-wrap">
+      <div className="flex items-center justify-center gap-4 flex-wrap">
         {Object.keys(pageLink).map((lesson) => (
           <Link
             key={lesson}
