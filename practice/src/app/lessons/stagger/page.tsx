@@ -3,6 +3,9 @@ import Link from "next/link";
 export default function Stagger() {
   const pageLink = {
     lesson20: "/lessons/stagger/lesson20",
+    lesson21: "/lessons/stagger/lesson21",
+    lesson22: "/lessons/stagger/lesson22",
+    lesson23: "/lessons/stagger/lesson23",
   };
   return (
     <div className="flex h-screen w-full items-center justify-center flex-wrap">
