@@ -3,6 +3,10 @@ import Link from "next/link";
 export default function Timeline() {
   const pageLink = {
     lesson24: "/lessons/timeline/lesson24",
+    lesson25: "/lessons/timeline/lesson25",
+    lesson26: "/lessons/timeline/lesson26",
+    lesson27: "/lessons/timeline/lesson27",
+    lesson28: "/lessons/timeline/lesson28",
   };
   return (
     <div className="flex h-screen w-full items-center justify-center flex-wrap">
